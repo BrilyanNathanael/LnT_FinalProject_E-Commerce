@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-auth {
+    background-color: white;
+    padding: 1em 5.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-auth .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-auth .nav-list a {
+    margin-right: 2em;
+    color: black;
+    font-weight: 800;
+}
+
+.navbar-auth .nav-list a:hover {
+    transition: .5s;
+    text-decoration: none;
+}
+
+.transaksi .transaksi-content,
+.transaksi-page .transaksi-orders {
+    padding: 5em;
+}
+
+.transaksi .transaksi-content .transaksi-all {
+    background-color: white;
+    padding: 3em 5em;
+    border-radius: 20px;
+}
+
+.transaksi .transaksi-content .transaksi-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.transaksi .transaksi-content .transaksi-all .transaksi-aksi {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.transaksi-page .transaksi-orders table tr .aksi {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.transaksi-page .transaksi-orders .oops {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.transaksi .transaksi-content .transaksi-all .transaksi-aksi a,
+.transaksi-page .transaksi-orders table tr .aksi a {
+    margin-right: 1em;
+    background-color: white;
+    border: 3px solid #00d9e1;
+    padding: .3em 1.8em;
+    border-radius: 10px;
+    color: #00d9e1;
+    text-decoration: none;
+}
+
+.transaksi .transaksi-content .transaksi-all .transaksi-aksi form button,
+.transaksi-page .transaksi-orders table tr .aksi form button {
+    padding: .3em .8em;
+    border-radius: 10px;
+    background-color: #00d9e1;
+    border: 3px solid #00d9e1;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(199, 195, 195);
+}

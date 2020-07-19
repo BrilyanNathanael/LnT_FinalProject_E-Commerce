@@ -1,0 +1,85 @@
+.register-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(114deg, rgba(34, 193, 195, 1) 0%, rgba(195, 255, 249, 1) 100%);
+}
+
+.register-page form {
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px rgb(199, 195, 195);
+    border-radius: 10px;
+}
+
+.register-page form .daftar {
+    padding: 1em 3em .2em 3em;
+}
+
+.register-page form .daftar .daftar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-page form .daftar .daftar-content p {
+    font-size: 11px;
+    color: darkgray;
+}
+
+.register-page form .daftar .daftar-content a {
+    color: #00d9e1;
+}
+
+.register-page form .daftar .daftar-content a:hover {
+    text-decoration: none;
+}
+
+.register-page form .daftar .kotak {
+    width: 3em;
+    height: .5em;
+    background-color: #00d9e1;
+    border-radius: 10px;
+}
+
+.register-page form .forms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register-page form .forms .forms-left,
+.register-page form .forms .forms-right {
+    padding: .3em 3em 2em 3em;
+}
+
+.register-page form .forms input {
+    width: 20em;
+}
+
+.register-page form .forms .forms-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.register-page form .forms .forms-right #button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.register-page form .forms .forms-right #button p {
+    color: darkgray;
+    font-size: 11px;
+}
+
+.register-page form .forms .forms-right #button button {
+    padding: .2em .6em;
+    background-color: #00d9e1;
+    color: white;
+    border: 2px solid #00d9e1;
+    box-shadow: 1px 1px 5px 1px #00d9e1;
+    border-radius: 10px;
+}

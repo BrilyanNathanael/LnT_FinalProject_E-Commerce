@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cart-page {
+    min-height: 100vh;
+}
+
+.cart-page .navbar-auth {
+    background-color: white;
+    padding: 1em 5.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-auth .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-auth .nav-list a {
+    margin-right: 2em;
+    color: black;
+    font-weight: 800;
+}
+
+.navbar-auth .nav-list a:hover {
+    transition: .5s;
+    text-decoration: none;
+}
+
+.cart-page .cart-content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em 5em;
+    height: 100vh;
+}
+
+.cart-page .cart-content .cart-oops {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-page .cart-content .total-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-page .cart-content .total-cart .total {
+    width: 25em;
+}
+
+.cart-page .cart-content .total-cart .total .kembali {
+    background-color: white;
+    border: 3px solid #00d9e1;
+    padding: .3em;
+    border-radius: 10px;
+    color: #00d9e1;
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-page .cart-content .total-cart .total .checkout {
+    padding: .3em;
+    border-radius: 10px;
+    background-color: #00d9e1;
+    border: 3px solid #00d9e1;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(199, 195, 195);
+    width: 5em;
+}
+
+.cart-page .cart-content .total-cart .total .kembali a {
+    color: #00d9e1;
+    text-decoration: none;
+}
+
+.cart-page .cart-content .total-cart .total .kembali a:hover {
+    color: darkgray;
+}
+
+.cart-page .cart-content .total-cart .total .checkout a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart-page .cart-content .total-cart .total .checkout a:hover {
+    color: whitesmoke;
+}
+
+.cart-page .checkout-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5em 5em 5em 3em;
+}
+
+.cart-page .checkout-content .checkout {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cart-page .checkout-content .checkout .prices {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em 3em;
+}
+
+.cart-page .checkout-content .checkout .form {
+    background-color: white;
+    padding: 2em 3em;
+    border-radius: 10px;
+}
+
+.cart-page .checkout-content .checkout .form input {
+    width: 28em;
+}
+
+.cart-page .checkout-content .checkout .form .submit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-page .checkout-content .checkout .form .submit button {
+    padding: .3em .5em;
+    background-color: #00d9e1;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+}
+
+.cart-page .checkout-content .preview {
+    background-color: white;
+    padding: 2em 3em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    overflow: auto;
+}
+
+.cart-page .checkout-content .preview .preview-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-page .checkout-content .preview .preview-content .gambar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cart-page .checkout-content .preview .preview-content .details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 2em;
+}

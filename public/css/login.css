@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/image/background-login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-page .login {
+    background-color: white;
+    box-shadow: 2px 2px 10px 3px rgb(199, 195, 195);
+    padding: 3em 5em;
+    border-radius: 10px;
+}
+
+.login-page .login .kotak {
+    width: 3em;
+    height: .5em;
+    background-color: #00d9e1;
+    border-radius: 10px;
+    margin-bottom: .7em;
+}
+
+.login-page .login .form-group {
+    padding: 0;
+    margin: 0;
+}
+
+.login-page .login .form-group input[type=text],
+.login-page .login .form-group input[type=password] {
+    width: 20em;
+    margin-bottom: .7em;
+}
+
+.login-page .login #button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-page .login #button p {
+    color: darkgray;
+    font-size: 11px;
+}
+
+.login-page .login #button p a {
+    color: #00d9e1;
+}
+
+.login-page .login #button p a:hover {
+    text-decoration: none;
+}
+
+.login-page .login #button button {
+    margin-top: .8em;
+    padding: .2em .6em;
+    background-color: #00d9e1;
+    color: white;
+    border: 2px solid #00d9e1;
+    box-shadow: 1px 1px 5px 1px #00d9e1;
+    border-radius: 10px;
+}
